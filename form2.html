@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+    </head>
+    <body>
+        
+        <form name = "Test" action="www.jai.com" method ="get">
+            
+            <h4>Test Javascript Form Validation</h4>
+            <label>
+                <table>
+                    
+                <tr>
+                    <td for = "id1">Name*</td>
+                    <td>
+                        <input type = "text" id = "id1" name = "name1" class="required" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td for = "id2">Address*</td>
+                    <td>
+                        <input type = "text" id ="id2" name = "name2">
+                    </td>
+                </tr>
+                <tr>
+                    <td for = "id3">Zip Code*</td>
+                    <td>
+                        <input type = "number" id = "id3" name = "name3" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td for = "id4">Country*</td>
+                    <td><select id = "id4" name = "name4">
+                        <option value = " India">India</option>
+                        <option value = "USA">USA</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type = "radio" id = "id5" name = "name5" value = "Male">Male
+                        <input type = "radio" id = "id6" name = "name6" value = "Female">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Perference</td>
+                    <td>
+                        <input type = "checkbox" id = "id7" name = "name7" value = "Red">Red
+                        <input type = "checkbox" id = "id7" name = "name7" value = "Green">Green
+                        <input type = "checkbox" id = "id8" name = "name8" value = "Blue">Blue
+              
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "id9">Phone*</label></td>
+                    <td>
+                        <input type = "number" id = "id9" name = "name9" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "id10">Email*</label></td>
+                    <td>
+                        <input type = "email" id = "id10" name = "name10" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "id11">Password* (6-8 characters)</label></td>
+                    <td>
+                        <input type = "password" id = "id11" name = "name11" placeholder ="Enter the password" minlength ="6" maxlength = "8" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = "id12">Verify password*</label></td>
+                    <td>
+                        <input type = "password" id = "id12" name = "name12" placeholder ="Enter the password" minlength ="6" maxlength = "8" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for = ""></label></td>
+                    <td>
+                        <input type = "submit" id = "id13"  name = "name13" value= "SEND">
+                    
+                        <input type = "reset" id = "id14" name = "name14" value = "CLEAR">
+                    </td>
+                </tr>
+                </table>
+            </label>
+        </form>
+    </body>
+</html>
